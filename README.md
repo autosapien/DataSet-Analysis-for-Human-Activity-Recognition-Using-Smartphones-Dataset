@@ -13,15 +13,15 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ### Codebooks
-The codebook ``Codebook.md`` is included in this repo. In order to get a better understanding of the data please review that and go over the features.info and features.txt files in the dataset linked above.  
+The codebook ```Codebook.md``` is included in this repo. In order to get a better understanding of the data please review that and go over the features.info and features.txt files in the dataset linked above.  
 
 ### Run
 Use the following commands in R to run the analysis
 
-``
+```
 source("run_analysis.R")
 run_analysis()
-``
+```
 
 ### Output
 The analysis will result in a file called tidy_data.txt
@@ -30,6 +30,6 @@ The analysis will result in a file called tidy_data.txt
 ### Reading the processed data
 The tidy_data.txt dataset can be read using
 
-``
+```
 data <- read.table(file_path, header = TRUE)
-``
+```
